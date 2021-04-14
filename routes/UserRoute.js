@@ -1,4 +1,4 @@
-const testRoute = {
+const userRoute = {
   method: "GET",
   path: "/",
   handler: (request, h) => {
@@ -6,4 +6,4 @@ const testRoute = {
   },
 };
 
-module.exports = [testRoute];
+module.exports = [userRoute];
